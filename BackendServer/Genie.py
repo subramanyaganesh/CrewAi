@@ -246,14 +246,14 @@ if __name__ == "__main__":
     
     embedding_function = AzureOpenAIEmbeddings(
         azure_deployment="text-embedding-ada-002",  # e.g. ""
-        openai_api_key="348155a39646437182940c0583c29923",
-        azure_endpoint="https://su-librem-models.openai.azure.com",
+        openai_api_key="",
+        azure_endpoint="",
         api_version="2023-05-15"                    
     )
     llm = AzureChatOpenAI(
         deployment_name="gpt-4o-mini",  # e.g. "gpt-4"
-        openai_api_key="348155a39646437182940c0583c29923",
-        azure_endpoint="https://su-librem-models.openai.azure.com",
+        openai_api_key="",
+        azure_endpoint="",
         api_version="2023-05-15"
     )
 
